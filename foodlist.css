@@ -1,0 +1,206 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(delicious-fresh-tomatoes-plate-high-angle_23-2148668701.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body>h1{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    color: yellow;
+    text-align: center;
+    text-decoration:underline;
+}
+.slide-container{
+  max-width: 1120px;
+  width: 100%;
+  margin-bottom: 1em;
+}
+main>.swiper>.slide-content>.card-wrapper>.card>.card-content>h1{
+  color: black;
+  font-weight: bolder;
+}
+.slide-content{
+
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.card{
+  height: 20em;
+aspect-ratio: 1;
+  border-radius: 25px;
+  background-color: #FFF;
+  display: grid;
+  place-items: center;
+}
+.card:hover{
+  background-color: rgba(255, 250, 250, 0.637);
+}
+.image-content,
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+.image-content{
+  position: relative;
+  row-gap: 5px;
+  background-image: url(soup1-removebg-preview.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15em;
+  aspect-ratio: 1;
+  margin-top: 1em;
+}
+.name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.swiper-navBtn{
+  color: #6E93f7;
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+  color: #4070F4;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 35px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+
+/* .swiper-pagination-bullet{
+  background-color: #6E93f7;
+  opacity: 1;
+} */
+.swiper-pagination-bullet-active{
+  background-color: #4070F4;
+}
+@media (max-width: 768px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  .slide-container{
+    max-width: 97vw;
+    /* width: 100%; */
+    margin-bottom: 1em;
+  }
+  .slide-content{
+    
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+  }
+  .card{
+    height: 20em;
+    width: 80vw;
+    border-radius:3em;
+    background-color: #FFF;
+    display: grid;
+    place-items: center;
+    -webkit-border-radius:3em;
+    -moz-border-radius:3em;
+    -ms-border-radius:3em;
+    -o-border-radius:3em;
+}
+.swiper-navBtn{
+ display: none;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  display: none;
+}
+.swiper-button-next{
+ display: none;
+}
+.swiper-button-prev{
+  display: none;
+}
+
+}
+@media (min-width: 767px) and (max-width:900px)
+{
+  .slide-content{
+    margin: 0 10px;
+  }
+  .slide-container{
+    max-width: 97vw;
+    /* width: 100%; */
+    margin-bottom: 1em;
+  }
+  .slide-content{
+    
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+  }
+  .card{
+    height: 20em;
+    width: 80vw;
+    border-radius:3em;
+    background-color: #FFF;
+    display: grid;
+    place-items: center;
+    -webkit-border-radius:3em;
+    -moz-border-radius:3em;
+    -ms-border-radius:3em;
+    -o-border-radius:3em;
+}
+.swiper-navBtn{
+  display: none;
+ }
+ 
+ .swiper-navBtn::before,
+ .swiper-navBtn::after{
+   display: none;
+ }
+ .swiper-button-next{
+  display: none;
+ }
+ .swiper-button-prev{
+   display: none;
+ }
+
+}
+body>a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+ padding: 1em 1.5em 1em 1.5em;
+ font-weight: bold;
+ margin-top: 1em;
+ margin-bottom: 2em;
+}
+body>a:hover{
+  background-color: #AFA9AB;
+}
+
+

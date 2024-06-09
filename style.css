@@ -1,0 +1,893 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+    scrollbar-color: black;
+}
+
+body {
+    background-color: black;
+    background-image: url(delicious-fresh-tomatoes-plate-high-angle_23-2148668701.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: blur(8px); */
+    height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+body::-webkit-scrollbar {
+    display: none;
+
+}
+.section1 {
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(image.png); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* flex-wrap:wrap; */
+}
+
+main>.section1>.text {
+    height: 50vh;
+    width: 30vw;
+    /* border: 1px solid black; */
+
+}
+
+main>.section1>.text>h1 {
+    font-size: 40px;
+    margin-bottom: 0.5em;
+}
+
+main>.section1>.text>h2 {
+    margin-bottom: 0.2em;
+}
+
+main>.section1>.text>p {
+    margin-bottom: 3em;
+}
+
+main>.section1>.text>a {
+    background: yellow;
+    padding: 15px;
+    border-radius: 40px;
+    width: 10em;
+    margin-top: 1em;
+    color: black;
+    font-weight: bolder;
+    border: none;
+    text-decoration: none
+}
+
+main>.section1>.food1 {
+    height: 80vh;
+    aspect-ratio: 1;
+    background-image: url(ponzu-2272072_1280-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid yellow; */
+    border-radius: 20%;
+    animation: loading 0.9s linear;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* responsive section 1 */
+
+@media (min-width:767px) and (max-width:885px) {
+    .section1 {
+        color: white;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-image: url(image.png); */
+        background-size: 100%;
+        background-repeat: no-repeat;
+        /* flex-wrap:wrap; */
+        flex-direction: column;
+    }
+
+    main>.section1>.text {
+        height: 50vh;
+        width: 100vw;
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 0.5em;
+
+    }
+
+    main>.section1>.text>h1 {
+        font-size: 50px;
+        margin-bottom: 0.5em;
+        color: yellow;
+    }
+
+    main>.section1>.text>h2 {
+        margin-bottom: 0.5em;
+        font-size: 30px;
+    }
+
+    main>.section1>.text>p {
+        text-align: center;
+        width: 80vw;
+        margin-bottom: 1.5em;
+        font-size: 20px;
+    }
+
+    main>.section1>.text>a {
+        background: yellow;
+        text-align: center;
+        font-size: 25px;
+        padding: 15px;
+        border-radius: 40px;
+        width: 10em;
+        margin-top: 1em;
+        color: black;
+        font-weight: bolder;
+        border: none;
+        text-decoration: none
+    }
+
+    main>.section1>.food1 {
+        height: 80vh;
+        aspect-ratio: 1;
+        /* background-image: url(ponzu-2272072_1280-removebg-preview.png); */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* border: 1px solid yellow; */
+        border-radius: 20%;
+        animation: loading 0.9s linear;
+    }
+}
+
+@media (max-width:430px) {
+    .section1 {
+        color: white;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-image: url(image.png); */
+        background-size: 100%;
+        background-repeat: no-repeat;
+        flex-direction: column;
+    }
+
+    main>.section1>.text {
+        height: 40vh;
+        width: 90vw;
+        /* border: 1px solid black; */
+
+    }
+
+    main>.section1>.text>h1 {
+        font-size: 30px;
+        margin-bottom: 0.3em;
+        color: yellow;
+    }
+
+    main>.section1>.text>h2 {
+        margin-bottom: 0.2em;
+    }
+
+    main>.section1>.text>p {
+        margin-bottom: 2em;
+    }
+
+    main>.section1>.text>a {
+        background: yellow;
+        padding: 10px;
+        border-radius: 40px;
+        width: 10em;
+        margin-top: 1em;
+        color: black;
+        font-weight: bolder;
+        border: none;
+        text-decoration: none
+    }
+
+    main>.section1>.food1 {
+        height: 50vh;
+        aspect-ratio: 1;
+        background-image: url(ponzu-2272072_1280-removebg-preview.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* border: 1px solid yellow; */
+        border-radius: 20%;
+        animation: loading 0.9s linear;
+    }
+}
+
+
+/*********************** section 1 responsive end ******************* */
+
+main>.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url(mid.jpg); */
+    /* background-color: black; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+main>.section2>h1 {
+    font-size: 40px;
+    margin-bottom: 0.1em;
+    color: yellow;
+}
+
+main>.section2>h5 {
+    color: rgba(0, 0, 0, 0.616);
+    margin-bottom: 2em;
+    color: white;
+
+}
+
+main>.section2>.dish_row {
+    /* border: 1px solid black; */
+    height: 60vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main>.section2>.dish_row>.dish1 {
+    height: 95%;
+    width: 32%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+}
+
+main>.section2>.dish_row>.dish1:hover {
+    background-color: rgba(255, 250, 250, 0.637);
+}
+
+main>.section2>.dish_row>.dish1>.d1 {
+    height: 69%;
+    aspect-ratio: 1;
+    background-image: url(soup2-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0.2em;
+}
+
+main>.section2>.dish_row>.dish1>.d2 {
+    height: 70%;
+    aspect-ratio: 1;
+    background-image: url(soup1-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0.2em;
+}
+
+main>.section2>.dish_row>.dish1>.d3 {
+    height: 70%;
+    aspect-ratio: 1;
+    background-image: url(soup3-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0.2em;
+}
+
+main>.section2>.dish_row>.dish1>p {
+    width: 80%;
+    text-align: center;
+}
+main>.section2>.vm{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+   padding: 1em 1em 1em 1em;
+   font-weight: bold;
+   margin-top: 1em;
+}
+main>.section2>.vm:hover{
+    background-color: #AFA9AB;
+}
+
+
+/* *****RESPONSIVE Section 3 START */
+@media (min-width:767px) and (max-width:885px) {
+    main>.section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        /* background-image: url(mid.jpg); */
+        /* background-color: black; */
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    main>.section2>h1 {
+        font-size: 45px;
+        margin-bottom: 0.1em;
+        color: yellow;
+    }
+
+    main>.section2>h5 {
+        font-size: 30px;
+        color: rgba(0, 0, 0, 0.616);
+        margin-bottom: 1.5em;
+        color: white;
+    }
+
+    main>.section2>.dish_row {
+        /* border: 1px solid black; */
+        height: 80vh;
+        width: 150vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    main>.section2>.dish_row>.dish1 {
+        height: 100%;
+        aspect-ratio: 1;
+        /* border: 1px solid white; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 50px;
+        margin-bottom: 1em;
+    }
+
+    main>.section2>.dish_row>.dish1:hover {
+        background-color: rgba(255, 250, 250, 0.637);
+    }
+
+    main>.section2>.dish_row>.dish1>.d1 {
+        height: 69%;
+        aspect-ratio: 1;
+        background-image: url(soup2-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 0.2em;
+    }
+
+    main>.section2>.dish_row>.dish1>.d2 {
+        height: 70%;
+        aspect-ratio: 1;
+        background-image: url(soup1-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 0.2em;
+    }
+
+    main>.section2>.dish_row>.dish1>.d3 {
+        height: 70%;
+        aspect-ratio: 1;
+        background-image: url(soup3-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 0.2em;
+    }
+
+    main>.section2>.dish_row>.dish1>p {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+/* ************************MOBILE***************************** */
+@media (max-width:430px) {
+    main>.section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        /* background-image: url(mid.jpg); */
+        /* background-color: black; */
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    main>.section2>h1 {
+        font-size: 20px;
+        margin-bottom: 0.1em;
+        color: yellow;
+        /* margin-top: -10em; */
+    }
+
+    main>.section2>h5 {
+        color: rgba(0, 0, 0, 0.616);
+        margin-bottom: 2em;
+        color: white;
+
+    }
+
+    main>.section2>.dish_row {
+        /* border: 1px solid black; */
+        margin-top: 2em;
+        height: 80vh;
+        width: 100%;
+        aspect-ratio: 1;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    main>.section2>.dish_row>.dish1 {
+        height: 100vh;
+        width: 70%;
+        /* border: 1px solid white; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 30px;
+        margin-bottom: 2em;
+    }
+
+    main>.section2>.dish_row>.dish1:hover {
+        background-color: rgba(255, 250, 250, 0.637);
+    }
+
+    main>.section2>.dish_row>.dish1>.d1 {
+        height: 70%;
+        aspect-ratio: 1;
+        background-image: url(soup2-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 0.2em;
+    }
+
+    main>.section2>.dish_row>.dish1>.d2 {
+        height: 70%;
+        aspect-ratio: 1;
+        background-image: url(soup1-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 0.2em;
+    }
+
+    main>.section2>.dish_row>.dish1>.d3 {
+        height: 70%;
+        aspect-ratio: 1;
+        background-image: url(soup3-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 0.2em;
+    }
+
+    main>.section2>.dish_row>.dish1>p {
+        width: 90%;
+        text-align: center;
+        font-size: small;
+    }
+}
+
+/* ***************** RESPONSIVE Section 2 END ************************* */
+.section3 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-image: url(mid.jpg); */
+    /* background-color: black; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+main>.section3>.text {
+    height: 50vh;
+    width: 30vw;
+    background-color: white;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    /* border: 1px solid black; */
+
+}
+
+main>.section3>.text>h1 {
+    font-size: 30px;
+    margin-bottom: 0.1em;
+}
+
+main>.section3>.text>p {
+    color: rgba(0, 0, 0, 0.685);
+    margin-bottom: 1em;
+}
+
+main>.section3>.food2 {
+    height: 90vh;
+    aspect-ratio: 1;
+    background-image: url(soup11.png);
+    /* background-image: url(ponzu-2272072_1280-removebg-preview.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* border: 5px solid black; */
+    border-radius: 20%;
+}
+
+/* ******** RESPONSIVE Section 3 START***************** */
+@media (min-width:767px) and (max-width:885px) {
+    .section3 {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* background-image: url(mid.jpg); */
+        /* background-color: black; */
+        background-size: 100%;
+        background-repeat: no-repeat;
+        flex-direction: column;
+    }
+    
+    main>.section3>.text {
+        height: 40vh;
+        width: 90vw;
+        background-color: white;
+        border-top-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 2em;
+        padding-right: 2em;
+        /* border: 1px solid black; */
+    }
+    
+    main>.section3>.text>h1 {
+        font-size: 40px;
+        margin-bottom: 0.1em;
+    }
+    
+    main>.section3>.text>p {
+        color: rgba(0, 0, 0, 0.685);
+        margin-bottom: 1em;
+        font-size: 23px;
+    }
+    
+    main>.section3>.food2 {
+        height: 90vh;
+        aspect-ratio: 1;
+        background-image: url(1-1-removebg-preview.png);
+        /* background-image: url(ponzu-2272072_1280-removebg-preview.png); */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* border: 5px solid black; */
+        border-radius: 20%;
+    }
+}
+/* ************************MOBILE***************************** */
+@media (max-width:430px){
+    .section3 {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* background-image: url(mid.jpg); */
+        /* background-color: black; */
+        background-size: 100%;
+        background-repeat: no-repeat;
+        flex-direction: column;
+    }
+    
+    main>.section3>.text {
+        height: 35vh;
+        width: 85vw;
+        background-color: white;
+        border-top-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* padding-left: 1em; */
+        /* padding-right: 1em; */
+        /* border: 1px solid black; */
+    
+    }
+    
+    main>.section3>.text>h1 {
+        font-size: 30px;
+        margin-bottom: 0.1em;
+    }
+    
+    main>.section3>.text>p {
+        color: rgba(0, 0, 0, 0.685);
+        margin-bottom: 1em;
+        font-size: smaller;
+    }
+    
+    main>.section3>.food2 {
+        height: 60vh;
+        aspect-ratio: 1;
+        background-image: url(1-1-removebg-preview.png);
+        /* background-image: url(ponzu-2272072_1280-removebg-preview.png); */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* border: 5px solid black; */
+        border-radius: 20%;
+    }
+}
+/* *************RESPONSIVE Section3 END********************** */
+footer {
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+footer>.f1 {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-image: url(endbg.jpg); */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top; */
+    color: white;
+}
+
+footer>.f1>p {
+    /* color: rgba(0, 0, 0, 0.712); */
+    color: white;
+    font-weight: bold;
+}
+
+footer>.f1>.in {
+    margin-top: 1em;
+    height: 3em;
+    width: 30em;
+    border-radius: 2em;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.308);
+}
+
+footer>.f1>.in>input {
+    height: 100%;
+    width: 72.2%;
+    border: none;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    outline: none;
+    padding-left: 1em;
+}
+
+footer>.f1>.in>input::placeholder {
+    padding-left: 1em;
+}
+
+footer>.f1>.in>button {
+
+    height: 100%;
+    width: 24%;
+    border: 0.5px solid rgba(0, 0, 0, 0.315);
+    border-radius: 2em;
+    background-color: yellow;
+    outline: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer>.f2 {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    /* background-image: url(endbg.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer>.f2>.c1 {
+    margin-top: 3em;
+    margin-left: 8em;
+}
+
+footer>.f2>.c1>h2 {
+    font-family: monospace;
+    font-weight: bolder;
+
+}
+
+ul>li {
+    font-family: monospace;
+    font-weight: bolder;
+    list-style: none;
+    margin-top: 0.7em;
+    font-size: small;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.801)
+}
+/* ******** RESPONSIVE footer START***************** */
+@media (min-width:767px) and (max-width:885px){
+    footer>.f2 {
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        /* background-image: url(endbg.jpg); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    footer>.f2>.c1 {
+        margin-top: 3em;
+        margin-left: 2em;
+    }
+    
+    footer>.f2>.c1>h2 {
+        font-family: monospace;
+        font-weight: bolder;
+    font-size: 30px;
+    }
+    
+    ul>li {
+        font-family: monospace;
+        font-weight: bolder;
+        list-style: none;
+        margin-top: 0.7em;
+        font-size: 16px;
+        font-weight: bold;
+        color: rgba(255, 255, 255, 0.801)
+    }
+}
+/* ************************MOBILE***************************** */
+@media (max-width:430px){
+    footer {
+        height: 100vh;
+        width: 100vw;
+        color: white;
+    }
+    
+    footer>.f1 {
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-image: url(endbg.jpg); */
+        /* background-repeat: no-repeat;
+        background-size: cover;
+        background-position:top; */
+        color: white;
+    }
+    footer>.f1>h1{
+        font-size: 20px;
+    }
+    
+    footer>.f1>p {
+        /* color: rgba(0, 0, 0, 0.712); */
+        color: white;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    
+    footer>.f1>.in {
+        margin-top: 1em;
+        height: 3em;
+        width: 90%;
+        border-radius: 2em;
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.308);
+    }
+    
+    footer>.f1>.in>input {
+        height: 100%;
+        width: 70%;
+        border: none;
+        border-top-left-radius: 2em;
+        border-bottom-left-radius: 2em;
+        outline: none;
+        padding-left: 1em;
+    }
+    
+    footer>.f1>.in>input::placeholder {
+        padding-left: 1em;
+    }
+    
+    footer>.f1>.in>button {
+    
+        height: 100%;
+        width: 24%;
+        border: 0.5px solid rgba(0, 0, 0, 0.315);
+        border-radius: 2em;
+        background-color: yellow;
+        outline: none;
+        color: black;
+        font-weight: bold;
+    }
+    
+    footer>.f2 {
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        /* background-image: url(endbg.jpg); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    footer>.f2>.c1 {
+        margin-top: 3em;
+        margin-left: 1.5em;
+    }
+    
+    footer>.f2>.c1>h2 {
+        font-family: monospace;
+        font-weight: bolder;
+        font-size: 15px;
+    
+    }
+    
+    ul>li {
+        font-family: monospace;
+        font-weight: bolder;
+        list-style: none;
+        margin-top: 0.7em;
+        font-size: 7px;
+        font-weight: bold;
+        color: rgba(255, 255, 255, 0.801)
+    }
+}
