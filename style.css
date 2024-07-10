@@ -21,6 +21,14 @@ body::-webkit-scrollbar {
     display: none;
 
 }
+main{
+overflow-x: hidden;
+overflow-y: scroll;
+}
+main::-webkit-scrollbar {
+    display: none;
+}
+
 .section1 {
     color: white;
     height: 100vh;
